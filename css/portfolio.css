@@ -1,0 +1,76 @@
+
+body {
+    background-color: black;
+}
+.container-grid {
+    display: grid;
+    padding: 10px;   
+    text-align: right;
+    background-color: black;
+    color: white;
+    font-family: 'Sora', sans-serif;
+    font-weight: lighter;
+}
+.heroImg {
+    padding: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: black;
+}
+.content {
+    justify-content: center;
+}
+.footer {
+
+    display: grid;
+    text-align: left;
+    color: white;
+    background-color: black;
+    padding: 25px;
+    font-family: 'Roboto', sans-serif;
+}
+.ul {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-end;
+}
+
+
+.flexContainer {
+    font-family: 'Roboto', sans-serif ;
+    color: white;
+}
+
+.mySkills {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+    color: white;
+    font-family: 'Roboto', sans-serif;
+
+}
+.workGrid {
+    font-size: xx-large;
+    font-family: 'Roboto', sans-serif;
+    -webkit-text-stroke-width: 1.5px;
+    -webkit-text-stroke-color:white;
+}
+
+h6 {
+    position: absolute;
+    width: 147px;
+    height: 28px;
+    left: 77px;
+    top: 396px;
+    font-family: 'Sora';
+    font-style: normal;
+    font-weight: 200;
+    font-size: 24px;
+    line-height: 28 px;
+    letter-spacing: -0.025em;
+    color: #F4F4F4;
+    transform: rotate(-90deg);
+}
