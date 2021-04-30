@@ -3,7 +3,7 @@ body {
 }
 
 #navBar {
-    padding-top: 25px;
+    padding: 25px;
     display: flex;
     flex-direction: row;
     margin: 0px 5%;
