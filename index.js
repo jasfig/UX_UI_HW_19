@@ -7,7 +7,7 @@ $(document).ready(function(){
     });
 
 
-$("h6").hover(function(){
+$("h6, a").hover(function(){
     $(this).css({
         color: "#ac7a08"
     });
@@ -47,3 +47,12 @@ $("p6").hover(function(){
     });
 });
 
+$("h4, a").hover(function(){
+    $(this).css({
+        color: "#ac7a08"
+    });
+}, function(){
+    $(this).css({
+        color: "#f4f4f4"
+    });
+});
